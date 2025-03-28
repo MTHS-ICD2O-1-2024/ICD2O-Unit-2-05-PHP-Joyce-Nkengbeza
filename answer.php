@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Area Of Circle, PHP" />
+  <meta name="description" content="Area Of Circle, PHP " />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Joyce Nkengbeza" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,7 +33,6 @@
   <title>Area Of Circle In PHP</title>
 </head>
 
-
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -46,22 +45,20 @@
       <div class="right-image">
         <img src="./images/areaofcircle.jpg" alt="Area of Circle Image" />
       </div>
-      <br />
       <div class="page-content-php">
-        <form action="answer.php" method="GET">
-          <p>Radius</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="radius-length">
-            <label class="mdl-textfield__label" for="radius-length">Radius Here...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          <br />
-          <!-- Accent-colored raised button with ripple -->
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            type="submit">
-            Calculate
-          </button>
-        </form>
+        <div id="area-circle">
+          <?php
+          $radiuslength = $_GET["radius-length"];
+          
+          // process
+          $area = ($radiuslength * $radiuslength) * M_PI;
+          // output 
+          echo "The area of the Circle is " . $area . " cm².";
+          ?>
+        </div>
+        <div class="page-content-answer">
+          <a href="./index.php">Return ...</a>
+        </div>
       </div>
     </main>
   </div>
