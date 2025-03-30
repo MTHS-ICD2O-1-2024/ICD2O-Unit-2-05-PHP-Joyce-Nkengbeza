@@ -52,13 +52,13 @@
           <p>Hours Worked</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="hours-worked">
-            <label class="mdl-textfield__label" for="radius-length">Hours Worked here...</label>
+            <label class="mdl-textfield__label" for="hours-worked">Hours Worked here...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <p>Hourly Wage</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="hourly-wage">
-            <label class="mdl-textfield__label" for="radius-length">Hourly wage here...</label>
+            <label class="mdl-textfield__label" for="hourly-wage">Hourly wage here...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <br />
