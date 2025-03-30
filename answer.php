@@ -43,7 +43,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/areaofcircle.jpg" alt="Area of Circle Image" />
+        <img src="./images/income_tax.jpg" alt="Income Tac Image" />
       </div>
       <div class="page-content-php">
         <div id="salary">
