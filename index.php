@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- ICS2O-Assignment-02-HTML-MDL -->
+<!-- ICS2O-Unit2-05-HTML-MDL -->
 <html lang="en-ca">
 
 <head>
