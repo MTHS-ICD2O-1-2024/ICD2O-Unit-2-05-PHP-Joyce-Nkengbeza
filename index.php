@@ -4,11 +4,8 @@
 
 <head>
   <meta charset="utf-8" />
-<<<<<<< HEAD
   <meta name="description" content="Salary in PHP" />
-=======
   <meta name="description" content="Salary, PHP" />
->>>>>>> refs/remotes/origin/main
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Joyce Nkengbeza" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
