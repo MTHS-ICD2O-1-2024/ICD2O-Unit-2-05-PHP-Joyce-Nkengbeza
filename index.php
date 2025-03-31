@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<!-- ICS2O-Assignment-02-HTML-MDL -->
+<!-- ICS2O-Unit2-05-HTML-MDL -->
 <html lang="en-ca">
 
 <head>
   <meta charset="utf-8" />
+<<<<<<< HEAD
   <meta name="description" content="Salary in PHP" />
+=======
+  <meta name="description" content="Salary, PHP" />
+>>>>>>> refs/remotes/origin/main
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Joyce Nkengbeza" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -44,15 +48,28 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/areaofcircle.jpg" alt="Area of Circle Image" />
+        <img src="./images/income_tax.jpg" alt="Income tax Image" />
       </div>
       <br />
       <div class="page-content-php">
         <form action="answer.php" method="GET">
+<<<<<<< HEAD
           <p>Hours worked</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="hours-worked">
             <label class="mdl-textfield__label" for="hours-worked">hours worked here...label>
+=======
+          <p>Hours Worked</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="hours-worked">
+            <label class="mdl-textfield__label" for="hours-worked">Hours Worked here...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          <p>Hourly Wage</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="hourly-wage">
+            <label class="mdl-textfield__label" for="hourly-wage">Hourly wage here...</label>
+>>>>>>> refs/remotes/origin/main
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <form action="answer.php" method="GET">

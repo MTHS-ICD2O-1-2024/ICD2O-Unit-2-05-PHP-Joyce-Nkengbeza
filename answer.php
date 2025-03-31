@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- ICS2O-Assignment-02-HTML-MDL -->
+<!-- ICS2O-Unit2-05-HTML-MDL -->
 <html lang="en-ca">
 
 <head>
@@ -43,18 +43,25 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/areaofcircle.jpg" alt="Area of Circle Image" />
+        <img src="./images/income_tax.jpg" alt="Income Tac Image" />
       </div>
       <div class="page-content-php">
-        <div id="area-circle">
+        <div id="salary">
           <?php
           $hoursworked = $_GET["hours-worked"];
           $hourlywage = $_GET["hourly-wage"];
+<<<<<<< HEAD
           
           // process
 
+=======
+          // process
+          $pay = ($hoursworked * $hourlywage) * (1.00 - 0.18);
+          $taxes = ($hoursworked * $hourlywage) * (0.18);
+>>>>>>> refs/remotes/origin/main
           // output 
-          echo "The area of the Circle is " . $area . " cm².";
+          echo "Your pay will be: "(round($pay, 2));
+          echo "The Government will take:"(round($taxes, 2));
           ?>
         </div>
         <div class="page-content-answer">
