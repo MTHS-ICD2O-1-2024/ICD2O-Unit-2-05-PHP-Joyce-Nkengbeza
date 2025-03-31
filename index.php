@@ -53,12 +53,6 @@
       <br />
       <div class="page-content-php">
         <form action="answer.php" method="GET">
-<<<<<<< HEAD
-          <p>Hours worked</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="hours-worked">
-            <label class="mdl-textfield__label" for="hours-worked">hours worked here...label>
-=======
           <p>Hours Worked</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="hours-worked">
@@ -69,7 +63,6 @@
           <div class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="hourly-wage">
             <label class="mdl-textfield__label" for="hourly-wage">Hourly wage here...</label>
->>>>>>> refs/remotes/origin/main
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <form action="answer.php" method="GET">

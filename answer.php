@@ -50,15 +50,12 @@
           <?php
           $hoursworked = $_GET["hours-worked"];
           $hourlywage = $_GET["hourly-wage"];
-<<<<<<< HEAD
           
           // process
 
-=======
           // process
           $pay = ($hoursworked * $hourlywage) * (1.00 - 0.18);
           $taxes = ($hoursworked * $hourlywage) * (0.18);
->>>>>>> refs/remotes/origin/main
           // output 
           echo "Your pay will be: "(round($pay, 2));
           echo "The Government will take:"(round($taxes, 2));
