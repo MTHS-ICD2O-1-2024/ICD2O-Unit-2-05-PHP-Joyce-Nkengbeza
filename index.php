@@ -63,12 +63,6 @@
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
           <form action="answer.php" method="GET">
-            <p>Hourly wage</p>
-            <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="hourly-wage">
-              <label class="mdl-textfield__label" for="hourly-wage">hourly wager here...</label>
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
             <br />
             <!-- Accent-colored raised button with ripple -->
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"

@@ -50,9 +50,6 @@
           <?php
           $hoursworked = $_GET["hours-worked"];
           $hourlywage = $_GET["hourly-wage"];
-          
-          // process
-
           // process
           $pay = ($hoursworked * $hourlywage) * (1.00 - 0.18);
           $taxes = ($hoursworked * $hourlywage) * (0.18);
